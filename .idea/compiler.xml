@@ -7,13 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tiny-starter-common" />
+        <module name="tiny-starter-auth" />
         <module name="tiny-test" />
+        <module name="tiny-starter-orm" />
+        <module name="tiny-starter-mongo" />
+        <module name="tiny-starter-web" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tiny-starter-auth" options="-parameters" />
       <module name="tiny-starter-common" options="-parameters" />
+      <module name="tiny-starter-mongo" options="-parameters" />
+      <module name="tiny-starter-orm" options="-parameters" />
+      <module name="tiny-starter-redis" options="" />
+      <module name="tiny-starter-web" options="-parameters" />
       <module name="tiny-test" options="-parameters" />
     </option>
   </component>

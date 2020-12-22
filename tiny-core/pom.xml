@@ -12,7 +12,10 @@
     <modules>
         <module>tiny-starter-dependencies</module>
         <module>tiny-starter-common</module>
-
+        <module>tiny-starter-orm</module>
+        <module>tiny-starter-nosql</module>
+        <module>tiny-starter-web</module>
+        <module>tiny-starter-auth</module>
     </modules>
 
     <properties>
