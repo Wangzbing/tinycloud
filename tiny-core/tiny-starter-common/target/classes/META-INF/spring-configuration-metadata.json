@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "framework.id-generator.snowflake",
+      "type": "com.tiny.core.common.snowflake.IDGeneratorConfig",
+      "sourceType": "com.tiny.core.common.snowflake.IDGeneratorConfig"
+    },
+    {
+      "name": "tiny",
+      "type": "com.tiny.core.config.DependenceAutoConfiguration",
+      "sourceType": "com.tiny.core.config.DependenceAutoConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "framework.id-generator.snowflake.biz-id",
+      "type": "java.lang.Integer",
+      "description": "业务编号",
+      "sourceType": "com.tiny.core.common.snowflake.IDGeneratorConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "framework.id-generator.snowflake.strategy",
+      "type": "java.lang.String",
+      "description": "默认的生成策略",
+      "sourceType": "com.tiny.core.common.snowflake.IDGeneratorConfig",
+      "defaultValue": "53bits"
+    },
+    {
+      "name": "framework.id-generator.snowflake.worker-id",
+      "type": "java.lang.Integer",
+      "description": "机器编号",
+      "sourceType": "com.tiny.core.common.snowflake.IDGeneratorConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "tiny.base-packages",
+      "type": "java.lang.String",
+      "sourceType": "com.tiny.core.config.DependenceAutoConfiguration"
+    }
+  ],
+  "hints": []
+}
